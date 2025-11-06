@@ -33,5 +33,6 @@ if birth_date:
 st.write("**Birth Year:**", birth_date.year)
 
 st.write('-arik')
+st.write('(demo)')
 
 
