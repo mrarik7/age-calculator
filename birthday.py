@@ -4,8 +4,7 @@ from datetime import date, datetime
 st.title("🎂 Birth / Age Calculator")
 
 
-birth_date = st.date_input("Select your Birth Date:"
-                           "Select your Birth Date:",
+birth_date = st.date_input("Select your Birth Date:",
                            min_value=date(1900, 1, 1),  # ← gives full range
                            max_value=date.today()
                            )
@@ -34,3 +33,4 @@ if birth_date:
 st.write("**Birth Year:**", birth_date.year)
 
 st.write('-arik')
+
