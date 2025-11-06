@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date, datetime
 
-st.title("🎂 Age Calculator")
+st.title("🎂 Age Calculator01")
 
 
 birth_date = st.date_input("Select your Birth Date:",
@@ -34,6 +34,7 @@ st.write("**Birth Year:**", birth_date.year)
 
 st.write('-arik')
 st.write('(demo/practice)')
+
 
 
 
